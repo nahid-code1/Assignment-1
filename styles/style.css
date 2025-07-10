@@ -67,7 +67,7 @@ nav {
 }
 .action-content-text {
   font-weight: 300;
-  color: #979797;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 24px;
 }
 .action-content h2 {
@@ -75,4 +75,38 @@ nav {
 }
 .action-image img {
   border-radius: 30px;
+}
+/* productive user styles */
+.productive-user {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  margin: 116px 160px 100px 140px;
+}
+.productive-user-number {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 142px;
+}
+.productive-user-title h3 {
+  font-size: 30px;
+}
+
+.user-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.user-number-alignment {
+  margin-right: 158px;
+  margin-left: 158px;
+}
+
+.user-number {
+  font-size: 80px;
+  color: #4e47ff;
+  margin: 0;
 }
